@@ -12,6 +12,7 @@
 		B3C2C9821E6DB4C700EEFB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C2C9801E6DB4C700EEFB48 /* Main.storyboard */; };
 		B3C2C9841E6DB4C700EEFB48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C2C9831E6DB4C700EEFB48 /* Assets.xcassets */; };
 		B3C2C9871E6DB4C700EEFB48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C2C9851E6DB4C700EEFB48 /* LaunchScreen.storyboard */; };
+		B3C2C98F1E6DB5F700EEFB48 /* CachedDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C2C98E1E6DB5F700EEFB48 /* CachedDateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B3C2C9831E6DB4C700EEFB48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C2C9861E6DB4C700EEFB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3C2C9881E6DB4C700EEFB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C2C98E1E6DB5F700EEFB48 /* CachedDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedDateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B3C2C97C1E6DB4C700EEFB48 /* AppDelegate.swift */,
 				B3C2C97E1E6DB4C700EEFB48 /* ViewController.swift */,
+				B3C2C98E1E6DB5F700EEFB48 /* CachedDateFormatter.swift */,
 				B3C2C9801E6DB4C700EEFB48 /* Main.storyboard */,
 				B3C2C9831E6DB4C700EEFB48 /* Assets.xcassets */,
 				B3C2C9851E6DB4C700EEFB48 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				B3C2C97F1E6DB4C700EEFB48 /* ViewController.swift in Sources */,
 				B3C2C97D1E6DB4C700EEFB48 /* AppDelegate.swift in Sources */,
+				B3C2C98F1E6DB5F700EEFB48 /* CachedDateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				B3C2C98D1E6DB4C700EEFB48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
